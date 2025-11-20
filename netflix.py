@@ -59,6 +59,7 @@ def main():
         nonnegative=True,
         implicitPrefs=False,
         coldStartStrategy="drop",  # drop NaN predictions during evaluation
+        seed=123,
     )
 
     print("Fitting ALS model ...")
