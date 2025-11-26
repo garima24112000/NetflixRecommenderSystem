@@ -1,0 +1,33 @@
+NCF Model Predictions
+============================================================
+
+Model: final_model_v2/checkpoint.pth
+Epoch: 18
+Validation RMSE: 0.9327
+
+Test Results:
+  Samples: 1,408,395
+  RMSE: 0.9327
+  MAE:  0.7256
+
+Prediction Stats:
+count    1.408395e+06
+mean     3.668779e+00
+std      6.372502e-01
+min      1.255791e+00
+25%      3.202209e+00
+50%      3.703085e+00
+75%      4.165953e+00
+max      5.199472e+00
+dtype: float64
+
+Error Stats:
+count    1.408395e+06
+mean     7.256150e-01
+std      5.859532e-01
+min      2.384186e-07
+25%      2.940975e-01
+50%      5.669620e-01
+75%      1.014974e+00
+max      4.028886e+00
+Name: error, dtype: float64
